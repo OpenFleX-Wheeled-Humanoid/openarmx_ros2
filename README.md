@@ -27,7 +27,6 @@ Core ROS 2 packages for OpenArmX. Combined with `openarmx_description` (URDF/xac
 ## Workspace Setup
 ```bash
 # Install vcs
-\nEnglish | [中文](./README_CN.md)
 
 ---
 sudo apt-get install python3-vcstool -y
@@ -35,12 +34,10 @@ sudo apt-get install python3-vcstool -y
 mkdir -p ~/openarmx_ws/src && cd ~/openarmx_ws/src
 git clone https://github.com/openarmx/openarmx_ros2.git
 # Fetch the required robot description (minimal) or full optional set
-\nEnglish | [中文](./README_CN.md)
 
 ---
 vcs import < openarmx_ros2/openarmx_minimal.repos
 # or: vcs import < openarmx_ros2/openarmx.repos
-\nEnglish | [中文](./README_CN.md)
 
 ---
 rosdep install --from-paths . --ignore-src -r -y
@@ -61,12 +58,10 @@ source install/setup.bash
 ## Run (examples)
 ```bash
 # real robot, one key run script
-\nEnglish | [中文](./README_CN.md)
 
 ---
 /home/openarmx/openarmx_ws/src/openarmx_ros2/openarmx_bimanual_moveit_config/run_bimanual_moveit_with_can2.0.sh
 # Simulation mode
-\nEnglish | [中文](./README_CN.md)
 
 ---
 /home/openarmx/openarmx_ws/src/openarmx_ros2/openarmx_bimanual_moveit_config/run_bimanual_moveit_sim.sh
