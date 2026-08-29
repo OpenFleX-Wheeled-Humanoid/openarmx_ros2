@@ -41,7 +41,7 @@ The hardware interface is configured via xacro parameters in the URDF `ros2_cont
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_hardware
 source install/setup.bash
 ```

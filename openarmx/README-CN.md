@@ -23,7 +23,7 @@ ROS 2 元包，聚合 OpenArmX 核心功能包，便于统一安装和依赖管�
 ### 编译
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx
 source install/setup.bash
 ```

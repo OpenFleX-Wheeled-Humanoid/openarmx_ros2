@@ -29,7 +29,7 @@ This package provides the primary launch file for starting the OpenArmX bimanual
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_bringup
 source install/setup.bash
 ```

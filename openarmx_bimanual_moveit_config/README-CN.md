@@ -28,7 +28,7 @@ OpenArmX 双臂机器人的 MoveIt 2 运动规划配置包。
 ### 编译
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_bimanual_moveit_config
 source install/setup.bash
 ```

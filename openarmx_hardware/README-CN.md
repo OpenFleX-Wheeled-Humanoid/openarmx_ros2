@@ -41,7 +41,7 @@ OpenArmX V10 机器人的 ros2_control 硬件接口插件。
 ### 编译
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_hardware
 source install/setup.bash
 ```

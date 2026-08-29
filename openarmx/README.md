@@ -23,7 +23,7 @@ This is a metapackage with no code of its own. It declares dependencies on the e
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx
 source install/setup.bash
 ```

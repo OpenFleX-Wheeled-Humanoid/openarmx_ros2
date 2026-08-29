@@ -19,7 +19,7 @@ Two launch variants are provided:
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_preview_bringup
 source install/setup.bash
 ```

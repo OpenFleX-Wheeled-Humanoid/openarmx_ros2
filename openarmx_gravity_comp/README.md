@@ -24,7 +24,7 @@ This package computes real-time gravity torques for the OpenArmX bimanual robot 
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_gravity_comp
 source install/setup.bash
 ```

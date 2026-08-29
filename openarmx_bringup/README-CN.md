@@ -29,7 +29,7 @@ OpenArmX 双臂机器人的启动文件和控制器配置包。
 ### 编译
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_bringup
 source install/setup.bash
 ```

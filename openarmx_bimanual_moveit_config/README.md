@@ -28,7 +28,7 @@ This package provides the MoveIt 2 motion planning configuration for the OpenArm
 ### Build
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_bimanual_moveit_config
 source install/setup.bash
 ```

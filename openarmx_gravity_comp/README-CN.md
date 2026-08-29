@@ -24,7 +24,7 @@
 ### 编译
 
 ```bash
-cd ~/openflex_ws
+cd ~/openflex_all/openflex_ws
 colcon build --packages-select openarmx_gravity_comp
 source install/setup.bash
 ```
